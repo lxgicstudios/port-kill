@@ -1,0 +1,46 @@
+{
+  "name": "@lxgicstudios/port-kill",
+  "version": "1.0.0",
+  "description": "Kill processes running on a specific port with one command",
+  "main": "dist/index.js",
+  "bin": {
+    "port-kill": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "port",
+    "kill",
+    "process",
+    "cli",
+    "port-in-use",
+    "kill-port",
+    "developer-tools",
+    "npx"
+  ],
+  "author": "LXGIC Studios <lxgicstudios@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/port-kill"
+  },
+  "homepage": "https://github.com/lxgicstudios/port-kill#readme",
+  "bugs": {
+    "url": "https://github.com/lxgicstudios/port-kill/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
